@@ -17,3 +17,7 @@ title:
     </td>
   </tr>
 </table>
+
+<p style="max-width: 700px; margin: 30px auto 0 auto; font-size: 16px; text-align: left;">
+I’m an incoming fourth-year Statistics student at the University of Iowa with a strong interest in risk analytics and data-driven decision-making. Through my internship at State Farm in underwriting and enterprise operations, I’m gaining valuable experience in how organizations assess and manage risk in real time. I enjoy working with data to uncover patterns, quantify uncertainty, and support smarter business outcomes. My goal is to build a career in risk strategy by using analytics to solve real problems and make a real impact.
+</p>

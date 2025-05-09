@@ -3,16 +3,16 @@
     "path": "~/GitHub/evanpearlman.github.io/_site.yml",
     "project_path": "_site.yml",
     "type": "yaml",
-    "hash": "1221585576",
+    "hash": "0",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1746807660730.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "2,9",
+        "cursorPosition": "9,26",
         "scrollLine": "0"
     },
     "folds": "",
@@ -20,7 +20,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1746814237000,
+    "last_content_update": 1746815337048,
     "read_only": false,
     "read_only_alternatives": []
 }
