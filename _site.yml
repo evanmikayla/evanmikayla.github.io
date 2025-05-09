@@ -1,8 +1,13 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "Evan Pearlman"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+output:
+  html_document:
+    theme: flatly     
+    highlight: textmate
+    css: styles.css 
