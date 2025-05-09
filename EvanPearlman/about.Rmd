@@ -1,0 +1,19 @@
+---
+title:
+---
+
+<table>
+  <tr>
+    <td style="width: 200px; vertical-align: top;">
+      <img src= "Files/IMG-5441.jpg" width="180" style="border-radius: 10px;">
+    </td>
+    <td style="padding-left: 20px; vertical-align: top;">
+      <h1>Evan Pearlman</h1>
+      <p><strong>Undergraduate Student</strong><br>
+      University of Iowa<br>
+      B.S. in Statistics, Certificate in Public Health<br>
+      <a href="mailto:evan.mikayla@gmail.com">evan.mikayla@gmail.com</a> [<a href="evan_cv.pdf">cv</a>]<br>
+      <strong>Property & Casualty Underwriting Intern at State Farm 
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,23 @@
+---
+title:
+output: 
+  html_document:
+    keep_md: false
+    md_extensions: -autolink_bare_uris
+---
+
+<table align="center" style="margin-top: 40px;">
+  <tr>
+    <td style="width: 200px; vertical-align: middle;">
+      <img src="Files/IMG-5441.jpg" width="160" height="160" style="object-fit: cover;">
+    </td>
+    <td style="padding-left: 20px; vertical-align: top;">
+      <h1>Evan Pearlman</h1>
+      <p><strong>4th Year Undergraduate Student</strong><br>
+      University of Iowa<br>
+      B.S. in Statistics, Certificate in Public Health<br>
+      <a href="mailto:evan.mikayla@gmail.com">evan.mikayla@gmail.com</a> [<a href="evan_cv.pdf">cv</a>]<br>
+      <strong>P&C Underwriting & Enterprise Operations Intern at State Farm</strong></p>
+    </td>
+  </tr>
+</table>
