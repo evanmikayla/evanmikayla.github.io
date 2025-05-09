@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+h1.title {
+  display: none;
+}
+
 a:hover {
   text-decoration: underline;
 }

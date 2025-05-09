@@ -3,7 +3,7 @@
     "path": "~/GitHub/evanpearlman.github.io/style.css",
     "project_path": "style.css",
     "type": "text",
-    "hash": "0",
+    "hash": "1839573285",
     "contents": "",
     "dirty": false,
     "created": 1746812457192.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "74,1",
-        "scrollLine": "0"
+        "cursorPosition": "19,1",
+        "scrollLine": "4"
     },
     "folds": "",
-    "lastKnownWriteTime": 1746814592,
+    "lastKnownWriteTime": 1746814718,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1746814592,
+    "last_content_update": 1746814718809,
     "read_only": false,
     "read_only_alternatives": []
 }
