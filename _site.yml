@@ -8,6 +8,5 @@ navbar:
       href: about.html
 output:
   html_document:
-    theme: flatly     
     highlight: textmate
     css: style.css 

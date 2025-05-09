@@ -45,3 +45,31 @@ img {
   background-color: #f2f2f2;
   border-radius: 5px;
 }
+
+/* 🔄 Force horizontal navbar layout */
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 30px; /* spacing between nav links */
+  align-items: center;
+  padding-left: 20px;
+  margin: 0;
+  list-style: none;
+}
+
+/* 🧭 Align the navbar brand and items on one line */
+.navbar-header,
+.navbar-collapse {
+  display: flex !important;
+  align-items: center;
+}
+
+.navbar-header {
+  margin-right: 40px;
+}
+
+/* ✨ Optional: make the hover feel soft */
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
