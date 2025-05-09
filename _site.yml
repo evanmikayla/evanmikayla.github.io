@@ -1,6 +1,6 @@
 name: "my-website"
 navbar:
-  title: "Evan Pearlman"
+  title: 
   left:
     - text: "Home"
       href: index.html
