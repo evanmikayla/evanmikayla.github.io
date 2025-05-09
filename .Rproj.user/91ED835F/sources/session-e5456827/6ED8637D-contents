@@ -25,23 +25,28 @@ img {
   max-width: 100%;
 }
 
-.navbar-default {
-  background-color: rgba(255, 255, 255, 0.95); /* semi-opaque */
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  padding: 10px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 30px; /* spacing between nav links */
+  align-items: center;
+  padding-left: 20px;
+  margin: 0;
+  list-style: none;
 }
 
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-  color: #2c3e50 !important;
-  font-weight: 500;
+
+.navbar-header,
+.navbar-collapse {
+  display: flex !important;
+  align-items: center;
+}
+
+.navbar-header {
+  margin-right: 40px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: #f2f2f2;
-  border-radius: 5px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
 }
