@@ -1,9 +1,5 @@
 ---
 title:
-output: 
-  html_document:
-    keep_md: false
-    md_extensions: -autolink_bare_uris
 ---
 
 <table align="center" style="margin-top: 40px;">

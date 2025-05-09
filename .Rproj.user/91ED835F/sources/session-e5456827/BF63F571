@@ -3,7 +3,7 @@
     "path": "~/GitHub/evanpearlman.github.io/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "314084760",
     "contents": "",
     "dirty": false,
     "created": 1746807669096.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "13,57",
+        "cursorPosition": "1,6",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1746809897,
+    "lastKnownWriteTime": 1746812908,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1746809897091,
+    "last_content_update": 1746812908367,
     "read_only": false,
     "read_only_alternatives": []
 }
