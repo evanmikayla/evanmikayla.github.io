@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Projects | Evan Pearlman</title>
+  <meta name="description" content="Cybersecurity projects and lab write-ups by Evan Pearlman.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html"><span class="prompt">&gt;</span> evan<span class="accent">.</span>pearlman</a>
+      <nav aria-label="Primary">
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#certs">Certs</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="section page-head">
+      <p class="eyebrow mono">// ~/projects</p>
+      <h1>Projects &amp; Labs</h1>
+      <p class="lede">Hands-on cybersecurity work. Every project gets a write-up covering the scenario, the tools I used, what I found, and what I learned. Projects marked <span class="status soon">Coming soon</span> are on my roadmap.</p>
+    </section>
+
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button type="button" class="filter active" data-filter="all">All</button>
+      <button type="button" class="filter" data-filter="email">Email Security</button>
+      <button type="button" class="filter" data-filter="network">Network</button>
+      <button type="button" class="filter" data-filter="soc">SOC / Logs</button>
+      <button type="button" class="filter" data-filter="hardening">Hardening</button>
+    </div>
+
+    <!--
+      HOW TO ADD A FINISHED PROJECT:
+      1. Change <span class="status soon">Coming soon</span> to <span class="status done">Completed</span>
+      2. Replace the placeholder text with your real summary and findings
+      3. Change the "Write-up coming soon" span to a link, e.g.
+         <a class="btn small" href="https://github.com/evanmikayla/REPO">View write-up →</a>
+    -->
+    <div class="project-grid" id="projects">
+
+      <article class="card project" data-cat="email">
+        <div class="project-top">
+          <span class="status soon">Coming soon</span>
+          <span class="cat mono">Email Security</span>
+        </div>
+        <h2>Phishing Email Analysis</h2>
+        <p>Placeholder: analyze real-world phishing samples by examining headers (SPF, DKIM, DMARC), extracting and defanging URLs and attachments, checking indicators against threat intelligence, and writing up an analyst verdict.</p>
+        <ul class="tags"><li>Email Headers</li><li>VirusTotal</li><li>URLScan.io</li><li>PhishTool</li></ul>
+        <p class="mitre mono">MITRE ATT&amp;CK: T1566 Phishing</p>
+        <span class="btn small disabled">Write-up coming soon</span>
+      </article>
+
+      <article class="card project" data-cat="network">
+        <div class="project-top">
+          <span class="status soon">Coming soon</span>
+          <span class="cat mono">Network</span>
+        </div>
+        <h2>Wireshark Traffic Analysis</h2>
+        <p>Placeholder: investigate packet captures to find malicious activity such as suspicious DNS queries, C2 beaconing, cleartext credentials and port scans, then document the attack timeline and indicators of compromise.</p>
+        <ul class="tags"><li>Wireshark</li><li>tcpdump</li><li>PCAP</li><li>TCP/IP</li></ul>
+        <p class="mitre mono">MITRE ATT&amp;CK: T1071 Application Layer Protocol</p>
+        <span class="btn small disabled">Write-up coming soon</span>
+      </article>
+
+      <article class="card project" data-cat="soc">
+        <div class="project-top">
+          <span class="status soon">Coming soon</span>
+          <span class="cat mono">SOC / Logs</span>
+        </div>
+        <h2>Home SOC Lab with SIEM</h2>
+        <p>Placeholder: build a virtual lab that forwards Windows and Linux logs into a SIEM, write detection rules for common attacks, and triage the alerts like a SOC analyst.</p>
+        <ul class="tags"><li>Splunk / Wazuh</li><li>Sysmon</li><li>VirtualBox</li><li>Windows Event Logs</li></ul>
+        <p class="mitre mono">MITRE ATT&amp;CK: Detection engineering</p>
+        <span class="btn small disabled">Write-up coming soon</span>
+      </article>
+
+      <article class="card project" data-cat="soc">
+        <div class="project-top">
+          <span class="status soon">Coming soon</span>
+          <span class="cat mono">SOC / Logs</span>
+        </div>
+        <h2>Brute-Force Log Investigation</h2>
+        <p>Placeholder: use Python and SQL to analyze authentication logs, detect brute-force and password-spraying patterns, and score suspicious sources. This builds on my background in anomaly detection.</p>
+        <ul class="tags"><li>Python</li><li>SQL</li><li>Auth Logs</li><li>Anomaly Detection</li></ul>
+        <p class="mitre mono">MITRE ATT&amp;CK: T1110 Brute Force</p>
+        <span class="btn small disabled">Write-up coming soon</span>
+      </article>
+
+      <article class="card project" data-cat="hardening">
+        <div class="project-top">
+          <span class="status soon">Coming soon</span>
+          <span class="cat mono">Hardening</span>
+        </div>
+        <h2>Vulnerability Scan &amp; Remediation</h2>
+        <p>Placeholder: scan a lab network, prioritize the findings by risk, apply fixes, and rescan to verify them, with a short remediation report.</p>
+        <ul class="tags"><li>Nmap</li><li>OpenVAS / Nessus</li><li>CVSS</li><li>Patching</li></ul>
+        <p class="mitre mono">Framework: NIST CSF Identify / Protect</p>
+        <span class="btn small disabled">Write-up coming soon</span>
+      </article>
+
+      <article class="card project placeholder" data-cat="all">
+        <div class="project-top">
+          <span class="status planned">Planned</span>
+          <span class="cat mono">TBD</span>
+        </div>
+        <h2>Your Next Project</h2>
+        <p>Placeholder card. Duplicate any card above to add a new project, such as TryHackMe or HackTheBox write-ups, CTF challenges or a malware triage lab.</p>
+      </article>
+
+    </div>
+    <p class="muted empty" id="empty" hidden>No projects in this category yet.</p>
+  </main>
+
+  <footer class="wrap footer mono">
+    <p>© <span id="year">2026</span> Evan Pearlman · <a href="index.html">← back to resume</a></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

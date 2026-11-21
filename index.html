@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Evan Pearlman | Cybersecurity</title>
+  <meta name="description" content="Evan Pearlman: an analyst with a statistics background, working toward a career in cybersecurity. Interactive resume and project portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html"><span class="prompt">&gt;</span> evan<span class="accent">.</span>pearlman</a>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#certs">Certs</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow mono">// security analyst in training</p>
+        <h1>Evan Pearlman</h1>
+        <p class="tagline mono"><span id="typed" aria-live="polite">Aspiring SOC Analyst</span><span class="cursor" aria-hidden="true">_</span></p>
+        <p class="lede">I have a B.S. in Statistics and work in insurance operations, where I find patterns, anomalies and discrepancies in high-volume data. I'm now applying those skills to cybersecurity.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="projects.html">View projects</a>
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn" id="resume-btn" href="resume.pdf" hidden>Download resume (PDF)</a>
+        </div>
+        <ul class="meta mono">
+          <li>📍 Lakemoor, IL</li>
+          <li>🎓 University of Iowa '26</li>
+          <li>🛡️ Open to SOC / IT security roles</li>
+        </ul>
+      </div>
+
+      <!-- INTERACTIVE TERMINAL -->
+      <div class="terminal" role="region" aria-label="Interactive terminal resume">
+        <div class="term-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+          <span class="term-title mono">evan@portfolio: ~</span>
+        </div>
+        <div class="term-body mono" id="term-output" aria-live="polite"></div>
+        <form class="term-input mono" id="term-form" autocomplete="off">
+          <label for="term-cmd"><span class="ps1">evan@portfolio:~$</span></label>
+          <input id="term-cmd" type="text" spellcheck="false" autocapitalize="off" aria-label="Type a command">
+        </form>
+        <div class="chips" aria-label="Quick commands">
+          <button type="button" data-cmd="whoami">whoami</button>
+          <button type="button" data-cmd="skills">skills</button>
+          <button type="button" data-cmd="experience">experience</button>
+          <button type="button" data-cmd="certs">certs</button>
+          <button type="button" data-cmd="projects">projects</button>
+          <button type="button" data-cmd="contact">contact</button>
+          <button type="button" data-cmd="help">help</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="wrap section">
+      <h2><span class="num mono">01.</span> About</h2>
+      <div class="about-grid">
+        <div>
+          <p>I'm an analytical, detail-oriented professional. Most of my experience is in spotting things that don't look right: inconsistent records, suspicious values, and data that doesn't reconcile across systems. Day to day I review policy and transaction data on 40+ commercial accounts, and I've also written IT troubleshooting guides and supported coworkers with access and login issues.</p>
+          <p>I'm building hands-on security skills through labs and projects in phishing analysis, network traffic analysis and log investigation, and I'm looking for my first role in cybersecurity.</p>
+        </div>
+        <ul class="stat-list">
+          <li><span class="stat mono">800K+</span><span>records analyzed for patterns and inefficiencies</span></li>
+          <li><span class="stat mono">1,500+</span><span>records validated in a core-system migration</span></li>
+          <li><span class="stat mono">50–90%</span><span>less repetitive processing time from a tool I built</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="wrap section">
+      <h2><span class="num mono">02.</span> Skills</h2>
+      <div class="skill-groups">
+        <div class="card">
+          <h3>Security &amp; Analysis</h3>
+          <ul class="tags">
+            <li>Anomaly &amp; Pattern Detection</li><li>Risk Scoring</li><li>Data Integrity</li>
+            <li>Discrepancy Investigation</li><li>Technical Documentation</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <ul class="tags">
+            <li>Python</li><li>SQL</li><li>Excel</li><li>Power BI</li>
+            <li>Microsoft Office</li><li>GitHub</li><li>Cloudflare</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>IT &amp; Communication</h3>
+          <ul class="tags">
+            <li>User Support</li><li>Access &amp; Login Troubleshooting</li>
+            <li>Issue Escalation</li><li>Stakeholder Communication</li>
+          </ul>
+        </div>
+        <div class="card learning">
+          <h3>Currently Learning <span class="badge">in progress</span></h3>
+          <!-- PLACEHOLDER: edit this list as you learn new tools -->
+          <ul class="tags">
+            <li>Wireshark</li><li>Phishing Analysis</li><li>Linux CLI</li>
+            <li>SIEM (Splunk / Wazuh)</li><li>MITRE ATT&amp;CK</li><li>Networking Fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="wrap section">
+      <h2><span class="num mono">03.</span> Experience</h2>
+      <ol class="timeline">
+        <li>
+          <details open>
+            <summary>
+              <span class="role">Underwriting Operations Associate</span>
+              <span class="org">Old Republic BITCO Insurance Companies</span>
+              <span class="when mono">Aug 2026 – Present · Davenport, IA</span>
+            </summary>
+            <ul>
+              <li>Recognize patterns and anomalies across policy, exposure, premium and transaction records on 40+ commercial accounts daily, flagging inconsistencies and escalating discrepancies to underwriters.</li>
+              <li>Wrote IT troubleshooting guides for my department to resolve desktop login issues, with step-by-step procedures coworkers can follow.</li>
+              <li>Follow established workflows to document resolutions and escalate exceptions, keeping records accurate and audit-ready.</li>
+              <li>Designed an Excel extension that automates workload tracking and workflow monitoring, cutting repetitive processing time by 50–90%.</li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span class="role">Data Management Intern</span>
+              <span class="org">Farmers Insurance – Ruhlow Agency</span>
+              <span class="when mono">Jan 2026 – Jun 2026 · Iowa City, IA</span>
+            </summary>
+            <ul>
+              <li>Validated 1,500+ customer, policy and financial records during a core-system migration, resolving 50+ discrepancies weekly through cross-system checks.</li>
+              <li>Built an automated outreach system and analyzed workflows to find manual bottlenecks and inconsistent data entry.</li>
+              <li>Used Excel lookup functions and reporting workflows to make high-volume data easier to validate, reconcile and access.</li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span class="role">Underwriting &amp; Enterprise Operations Intern</span>
+              <span class="org">State Farm</span>
+              <span class="when mono">May 2025 – Aug 2025 · Tempe, AZ</span>
+            </summary>
+            <ul>
+              <li>Analyzed 800,000+ contact-center records in Excel and Power BI to identify demand patterns and inefficiencies, applying AI responsibly with human oversight.</li>
+              <li>Found and corrected a significant source-data discrepancy, protecting the integrity of the analysis and its recommendations.</li>
+              <li>Presented findings to 40+ senior leaders, translating technical analysis for a business audience.</li>
+              <li>Served as the team's IT intern, learning unfamiliar applications independently and guiding colleagues through Microsoft tools and system issues.</li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span class="role">Customer Service Representative</span>
+              <span class="org">University of Iowa – Billing Office</span>
+              <span class="when mono">Oct 2023 – Sep 2024 · Iowa City, IA</span>
+            </summary>
+            <ul>
+              <li>Handled confidential student financial information with discretion while resolving 100+ billing inquiries daily by phone and email.</li>
+              <li>Guided students and parents through university account systems and investigated account-level data to resolve discrepancies.</li>
+            </ul>
+          </details>
+        </li>
+      </ol>
+
+      <h3 class="sub">Education</h3>
+      <div class="card edu">
+        <div>
+          <p class="role">B.S. in Statistics</p>
+          <p class="org">University of Iowa</p>
+          <p class="small">Relevant coursework: Statistical Learning, Predictive Modeling, Data Visualization, SQL</p>
+          <p class="small">🏅 Ina Loewenberg Scholarship</p>
+        </div>
+        <span class="when mono">May 2026</span>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS (PLACEHOLDER) -->
+    <section id="certs" class="wrap section">
+      <h2><span class="num mono">04.</span> Certifications</h2>
+      <p class="muted">My certification roadmap. I'll update it as I earn each one.</p>
+      <!-- PLACEHOLDER: change status to "Earned", add the date and a Credly link when you pass -->
+      <div class="cert-grid">
+        <div class="card cert">
+          <span class="status planned">Planned</span>
+          <h3>CompTIA Security+</h3>
+          <p class="small">Core security concepts, threats, architecture and incident response.</p>
+        </div>
+        <div class="card cert">
+          <span class="status planned">Planned</span>
+          <h3>Google Cybersecurity Certificate</h3>
+          <p class="small">SIEM tools, Linux, SQL, Python and incident detection.</p>
+        </div>
+        <div class="card cert">
+          <span class="status planned">Planned</span>
+          <h3>Certification Name</h3>
+          <p class="small">Placeholder: add another certification you're working toward.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS TEASER -->
+    <section class="wrap section">
+      <h2><span class="num mono">05.</span> Projects</h2>
+      <div class="card teaser">
+        <div>
+          <h3>Hands-on security labs: coming soon</h3>
+          <p class="muted">Phishing email analysis, Wireshark traffic investigations, log analysis and more. Each project will include a write-up of my method, findings and lessons learned.</p>
+        </div>
+        <a class="btn primary" href="projects.html">See the project roadmap →</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="wrap section contact">
+      <h2><span class="num mono">06.</span> Contact</h2>
+      <p class="lede">I'm looking for entry-level SOC, security analyst and IT security roles. Feel free to reach out.</p>
+      <div class="contact-links">
+        <a class="btn primary" id="email-btn" href="#contact">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/evan-pearlman" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn" href="https://github.com/evanmikayla" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <!-- PLACEHOLDER: add TryHackMe / HackTheBox profile links when you have them -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer mono">
+    <p>© <span id="year">2026</span> Evan Pearlman · Built by hand, hosted on GitHub Pages · <a href="#main">back to top ↑</a></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
